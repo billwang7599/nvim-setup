@@ -1,0 +1,3 @@
+# will not add plugin file to commit/git
+#plugin file is created after Packer installs plugins
+plugin
