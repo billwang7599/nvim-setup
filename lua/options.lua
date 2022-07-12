@@ -1,5 +1,3 @@
-local g = vim.g
-
 local options = {
 	number = true,
 	mouse = 'a',
@@ -12,13 +10,13 @@ local options = {
 	textwidth = 80,
 	shiftwidth = 4,
 	clipboard = 'unnamed',
-	selectmode = ''
+	selectmode = '',
+	relativenumber = true
 	}
 
 for k, v in pairs(options) do 
 	vim.opt[k] = v
 end
 
-
-
+vim.cmd([[tnoremap <Esc> <C-\><C-n>]])
 vim.cmd("colorscheme sonokai")

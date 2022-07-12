@@ -10,13 +10,13 @@ vim.g.mapleader = " "
 map('n', '<leader>t', ':NvimTreeToggle<cr>', default_options)
 
 -- resize window with arrows
-map('n', '<C-Up>', ':resize -2<cr>', default_options)
-map('n', '<C-Down>', ':resize +2<cr>', default_options)
-map('n', '<C-Left>', ':vertical resize -2<cr>', default_options)
-map('n', '<C-right>', ':vertical resize +2<cr>', default_options)
+map('n', '<C-k>', ':resize -2<cr>', default_options)
+map('n', '<C-j>', ':resize +2<cr>', default_options)
+map('n', '<C-l>', ':vertical resize -2<cr>', default_options)
+map('n', '<C-h>', ':vertical resize +2<cr>', default_options)
 
 -- split windows
-map('n', '<leader><Down>', '<C-w>s', default_options)
-map('n', '<leader><Right>', '<C-w>v', default_options)
+map('n', '<C-leader><j>', '<C-w>s', default_options)
+map('n', '<C-leader><l>', '<C-w>v', default_options)
 
 
